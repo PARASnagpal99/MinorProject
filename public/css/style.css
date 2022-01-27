@@ -38,7 +38,7 @@ header .compass-icon {
 .weather-title {
   margin: 2rem 0;
   text-align: center;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 .weather-title h1{
   font-weight: bold;
@@ -63,7 +63,7 @@ form input{
   font-size: 2rem ;
   margin-top: 2rem ;
   position: relative;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 
 .result .temp::after{
@@ -76,7 +76,7 @@ form input{
 .result .icon-des{
   display: flex;
   align-items: center;
-  font-family: cursive;
+  font-family: sans-serif;
   justify-content: center;
 }
 
@@ -86,12 +86,12 @@ form input{
 }
 .result .city {
   font-size: 3rem ;
-  font-family: cursive;
+  font-family: sans-serif;
 }
 .btn{
   border-radius: 1px;
      font-size: 1.3em;
-     font-family: cursive;
+     font-family: sans-serif;
      background-color: skyblue;
      margin-left: 33%;
 }
