@@ -12,32 +12,32 @@
       <div class="compass-icon"><img src="/icons/compass.svg" alt=""></div>
     </header>
     <div class="weather-title">
-      <h1>Simply Weather</h1>
-      <p>View the current weather for your city</p>
+      <h1>Simple Weather</h1>
+      <h3>View the current weather for your city</h3>
     </div>
     <form action="/" method="POST">
       <input type="text" name="city" class="ghost-input" placeholder="Enter a city">
-      <button class="btn">get information</button>
+      <button class="btn">Get Information</button>
     </form>
 
     <div class="result">
       <% if(temp !== null)  {%>
-        <h1 class="temp"><%= temp %></h1>
+        <h1 class="temp">Temperature : <%= temp %> celsius</h1>
       <% } %>
 
       <div class="icon-des">
         <% if(icon !== null)  {%>
           <img class="icon" src="http://openweathermap.org/img/w/<%= icon %>.png" alt="">
         <% } %>
+      </div>
+      <div class="icon-des">
         <% if(des !== null)  {%>
-          <h3><%= des %></h3>
+          <h2>Description : <%= des %></h2>
         <% } %>
       </div>
-
       <% if(city !== null)  {%>
-        <p class="city"><%= city %></p>
+        <p class="city">City : <%= city %></p>
       <% } %>
-
     </div>
   </div>
 </body>
